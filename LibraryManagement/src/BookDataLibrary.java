@@ -2,7 +2,7 @@
 
 
 public class BookDataLibrary {
-    String filePath = "Books.txt";
+    String filePath;
 
     public BookDataLibrary(String filePath) {
         this.filePath = filePath;

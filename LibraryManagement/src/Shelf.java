@@ -40,8 +40,6 @@ public class Shelf {
         return MAX_BOOKS - nob;
     }
 
-    
-
     public void removeBook(int bookID) throws NotEnoughQuantityException {
         for (Book book : Books.keySet()) {
             if (book.getID() == bookID) {
